@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+  background-color: #f7f7f2;
+  background-image: url(images/fondreservation.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #121113;
+  margin: 0;
+  padding: 0;
+}
+
+/*Logo*/
+.logo{
+    text-align: center;
+}
+
+#logo1{ 
+  width: 100px;
+  height: 100px;
+} 
+
+nav {
+    width: 100%;
+    visibility: visible;
+    background-color: #E4E6C3 ;
+    position: relative;
+    height: 80px;
+}
+
+#titre{
+    height: 75px; 
+}
+
+h2 {
+  color: #222725;
+  text-align: center;
+  font-family: "Pansy Bo W03 Regular";
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+h1{
+    color: #222725;
+    font-family: "Pansy Bo W03 Regular";
+    font-size: 85px;
+    font-weight: lighter;
+    margin-top:50px ;
+    text-align: center;
+}
+
+#big{
+    display: flex;
+    justify-content: center;
+}
+
+#formulaireReservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 0 50px 50px 50px;
+  background-color: #E4E6C3;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#formulaireReservation div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-family: 'TeXGyreTermes', sans-serif;
+}
+
+input,
+select {
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-family: 'TeXGyreTermes', sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 25px;
+  border-radius: 15px;
+  background-color: #222725;
+  color: #f7f7f2;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button:hover {
+  background-color: #e4e6c3;
+  color: #222725;
+  font-weight: bold;
+}
+
+
+/*Bas de page*/
+footer {
+    margin-top: 50px ;
+    background-color: #222725;
+    color: #F7F7F2;
+    padding: 20px 0;
+  }
+  
+  .mention {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .legal {
+    text-align: center;
+  }
+  
+  .legal h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .legal p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .legal a {
+    text-decoration: none;
+    color: #F7F7F2;
+    transition: 0.4s;
+  }
+  
+  .legal a:hover{
+    font-weight: bold;
+  }
